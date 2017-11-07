@@ -19,7 +19,7 @@
                     <input type="radio" name="Gender" value="Male">Male<br><br> 
                     First name: <input type="text" name="FirstName" value=""><br>
                     Last name: <input type="text" name="LastName" value=""><br><br>
-                    <input type="text" name="DateOfBirth" value="" maxlength="10" size="10">DD-MM-YYYY<br><br>
+                    Date of birth<input type="text" name="DateOfBirth" value="" maxlength="10" size="10">dd-mm-yyyy<br><br>
                         Country:<input list="nationality" name="nationality">
                                 <datalist id="nationality">
                                     <option value="United states">
@@ -28,6 +28,7 @@
                                     <option value="Asia">
                                     <option value="China">
                                 </datalist>
+                        <input type="submit" value="Submit">  
                     <p><h4>Private address</h4></p>
                     <input type="text" name="Street" value="">Street<br>
                     <input type="text" name="Zipcode" value="">Zipcode<br>

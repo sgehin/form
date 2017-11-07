@@ -27,6 +27,13 @@
         echo "<div class=bgcolor>Zipcode = $Zipcode</div>";
         echo "<div >City= $City</div>";
         echo "<div class=bgcolor>country = $country</div>";
+        
+        $handle = fopen('fileA.txt','a');
+        fwrite($handle,$gender."\n");
+        fwrite($handle,$fname."\n");
+        fclose($handle);
         ?>
+        
+        
     </body>
 </html>

@@ -1,29 +1,22 @@
 input {
     color: gray;
    }
-   td{
-        align: left;
-        border: 2px solid gray;
-        border-radius: 4px; 
-        padding: 4px;
-        width: 300 px;
-        height:1200 px;
-        
-        background-color: yellowgreen
-   }
-   h2 {
-       text-align: left;
-   }   
-
- h4 {
+td{
+    font-weight: bold; 
+    align: left;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    padding: 4px;
+    width: 300 px;
+    height:600 px;
+    }
+h2 {
+    text-align: left;
+    }   
+h4 {
     text-align: left;
     font-weight: bold;    
-}
-
-div {
-    
-        
-}
+    }
 .bgcolor{
     background-color: yellow;
 }

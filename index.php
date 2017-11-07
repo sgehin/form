@@ -20,26 +20,19 @@
                     First name: <input type="text" name="FirstName" value=""><br>
                     Last name: <input type="text" name="LastName" value=""><br><br>
                     Date of birth<input type="text" name="DateOfBirth" value="" maxlength="10" size="10">dd-mm-yyyy<br><br>
-                        Country:<input list="nationality" name="nationality">
-                                <datalist id="nationality">
-                                    <option value="United states">
-                                    <option value="Europe">
-                                    <option value="Africa">
-                                    <option value="Asia">
-                                    <option value="China">
+                        Country:<input list="country" name="country">
+                                <datalist id="country">
+                                    <option value="Belgie">
+                                    <option value="Duitsland">
+                                    <option value="Engeland">
+                                    <option value="Frankrijk">
+                                    <option value="Nederland">
                                 </datalist>
-                        <input type="submit" value="Submit">  
                     <p><h4>Private address</h4></p>
                     <input type="text" name="Street" value="">Street<br>
                     <input type="text" name="Zipcode" value="">Zipcode<br>
                     <input type="text" name="City" value="">City<br><br>
-                        Country:<input list="country" name="country">
-                                <datalist id="country">
-                                    <option value="United states">
-                                    <option value="Europe">
-                                    <option value="Africa">
-                                    <option value="Asia">
-                                    <option value="China"><br>
+                    E-mail: <input type="email" name="usremail">                                      
                     <input type="submit" value="Submit">       <!-- submit knop verdwenen van formulier????-->
                 </form>
                 </td>
